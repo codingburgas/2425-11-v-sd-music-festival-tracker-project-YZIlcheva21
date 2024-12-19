@@ -25,6 +25,11 @@ This code is designed to **demonstrate** key concepts related to:
 2. **Study the Code**: Look at how the database is connected and how the three-layer model is set up.
 3. **Modify and Experiment**: Feel free to modify the code for practice, but remember that this code is not for production use.
 
+### How to Use TODO-To-Issue tracker:
+1. In the repo where you want the action to run, go to Settings -> Actions (General) -> Workflow permissions and enable "Read and write permissions".
+2. Simply add a line or block comment starting with TODO (or any other comment identifiers configured), followed by a colon and/or space.
+3. For more info follow https://github.com/marketplace/actions/todo-to-issue
+
 ### After Reading This:
 - **Please edit this README** to add your own notes, thoughts, or questions as you go through the code.
 
