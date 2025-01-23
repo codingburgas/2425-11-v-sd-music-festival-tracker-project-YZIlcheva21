@@ -12,5 +12,7 @@ namespace MusicFestivalManagementSystem.Data
 
         public DbSet<Performance> Performances { get; set; } = null!;
         public DbSet<Event> Events { get; set; } = null!;
+        public DbSet<User>? Users { get; set; } // Nullable
+
     }
 }

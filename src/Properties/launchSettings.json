@@ -3,10 +3,11 @@
     "MusicFestivalManagementSystem": {
       "commandName": "Project",
       "launchBrowser": true,
+      "applicationUrl": "https://localhost:51386",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      },
-      "applicationUrl": "https://localhost:51386;http://localhost:51387"
+      }
     }
+
   }
 }
