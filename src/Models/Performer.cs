@@ -1,11 +1,20 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace MusicFestivalManagementSystem.Models
 {
-    public class Performance
+    public class Performer
     {
-        public int Id { get; set; } // Primary key
-        public string Title { get; set; } = string.Empty; // Title of the performance
-        public string Performer { get; set; } = string.Empty; // Performer name
-        public string Venue { get; set; } = string.Empty; // Venue name
-        public DateTime Date { get; set; } // Date of the performance
+        public int Id { get; set; }
+
+        [Required]
+        [StringLength(100)]
+        public string Name { get; set; } = string.Empty;
+
+        [Required]
+        [StringLength(50)]
+        public string Genre { get; set; } = string.Empty;
+
+        [StringLength(500)]
+        public string Description { get; set; } = string.Empty;
     }
 }

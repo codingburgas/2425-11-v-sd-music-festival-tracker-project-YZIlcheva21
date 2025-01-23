@@ -116,6 +116,14 @@ C:\Users\PC\Downloads\MusicFestivalManagementSystem_Corrected_v2 (1)\MusicFestiv
 C:\Users\PC\Downloads\MusicFestivalManagementSystem_Corrected_v2 (1)\MusicFestivalManagementSystem_Corrected_v2\src\obj\Debug\net6.0\MusicFestivalManagementSystem.pdb
 C:\Users\PC\Downloads\MusicFestivalManagementSystem_Corrected_v2 (1)\MusicFestivalManagementSystem_Corrected_v2\src\obj\Debug\net6.0\MusicFestivalManagementSystem.genruntimeconfig.cache
 C:\Users\PC\Downloads\MusicFestivalManagementSystem_Corrected_v2 (1)\MusicFestivalManagementSystem_Corrected_v2\src\obj\Debug\net6.0\ref\MusicFestivalManagementSystem.dll
+C:\Users\PC\Downloads\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\src\obj\Debug\net6.0\MusicFestivalManagementSystem.csproj.AssemblyReference.cache
+C:\Users\PC\Downloads\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\src\obj\Debug\net6.0\MusicFestivalManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Downloads\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\src\obj\Debug\net6.0\MusicFestivalManagementSystem.AssemblyInfoInputs.cache
+C:\Users\PC\Downloads\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\src\obj\Debug\net6.0\MusicFestivalManagementSystem.AssemblyInfo.cs
+C:\Users\PC\Downloads\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\src\obj\Debug\net6.0\MusicFestivalManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\PC\Downloads\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\src\obj\Debug\net6.0\MusicFestivalManagementSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PC\Downloads\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\src\obj\Debug\net6.0\MusicFestivalManagementSystem.RazorAssemblyInfo.cache
+C:\Users\PC\Downloads\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\src\obj\Debug\net6.0\MusicFestivalManagementSystem.RazorAssemblyInfo.cs
 C:\Users\PC\Downloads\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\src\bin\Debug\net6.0\MusicFestivalManagementSystem.exe
 C:\Users\PC\Downloads\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\src\bin\Debug\net6.0\appsettings.json
 C:\Users\PC\Downloads\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\src\bin\Debug\net6.0\MusicFestivalManagementSystem.deps.json
@@ -158,14 +166,6 @@ C:\Users\PC\Downloads\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\sr
 C:\Users\PC\Downloads\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\src\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\PC\Downloads\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\src\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\PC\Downloads\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\src\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\PC\Downloads\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\src\obj\Debug\net6.0\MusicFestivalManagementSystem.csproj.AssemblyReference.cache
-C:\Users\PC\Downloads\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\src\obj\Debug\net6.0\MusicFestivalManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\PC\Downloads\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\src\obj\Debug\net6.0\MusicFestivalManagementSystem.AssemblyInfoInputs.cache
-C:\Users\PC\Downloads\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\src\obj\Debug\net6.0\MusicFestivalManagementSystem.AssemblyInfo.cs
-C:\Users\PC\Downloads\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\src\obj\Debug\net6.0\MusicFestivalManagementSystem.csproj.CoreCompileInputs.cache
-C:\Users\PC\Downloads\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\src\obj\Debug\net6.0\MusicFestivalManagementSystem.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\PC\Downloads\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\src\obj\Debug\net6.0\MusicFestivalManagementSystem.RazorAssemblyInfo.cache
-C:\Users\PC\Downloads\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\src\obj\Debug\net6.0\MusicFestivalManagementSystem.RazorAssemblyInfo.cs
 C:\Users\PC\Downloads\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\src\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\PC\Downloads\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\src\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\PC\Downloads\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\src\obj\Debug\net6.0\scopedcss\bundle\MusicFestivalManagementSystem.styles.css

@@ -5,23 +5,16 @@ using System.Linq;
 
 namespace MusicFestivalManagementSystem.Controllers
 {
-    public class HomeController : Controller
+    public class StatisticsController : Controller
     {
         private readonly ApplicationDbContext _context;
 
-        public HomeController(ApplicationDbContext context)
+        public StatisticsController(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        // Default Index Action
         public IActionResult Index()
-        {
-            return View();
-        }
-
-        // Statistics Action
-        public IActionResult Statistics()
         {
             var viewModel = new StatisticsViewModel
             {

@@ -1,1 +1,62 @@
-<html>...</html>
+@model MusicFestivalManagementSystem.Models.StatisticsViewModel
+
+@{
+    ViewData["Title"] = "Statistics";
+}
+
+<h1>Festival Statistics</h1>
+
+<div class="statistics-container">
+    <div class="stat-box">
+        <h2>Total Performers</h2>
+        <p>@Model.TotalPerformers</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>Total Performances</h2>
+        <p>@Model.TotalPerformances</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>Total Events</h2>
+        <p>@Model.TotalEvents</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>Most Popular Genre</h2>
+        <p>@Model.MostPopularGenre</p>
+    </div>
+</div>
+
+<style>
+    .statistics-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .stat-box {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+        background-color: #f9f9f9;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .stat-box h2 {
+        margin: 0 0 10px;
+        font-size: 18px;
+        color: #333;
+    }
+
+    .stat-box p {
+        font-size: 24px;
+        font-weight: bold;
+        color: #007bff;
+        margin: 0;
+    }
+</style>
