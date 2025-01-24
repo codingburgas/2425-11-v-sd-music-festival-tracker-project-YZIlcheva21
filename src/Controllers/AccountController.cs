@@ -1,7 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using MusicFestivalManagementSystem.Models;
 using MusicFestivalManagementSystem.Data;
-
+using System.Security.Cryptography;
+using System.Text;
 
 namespace MusicFestivalManagementSystem.Controllers
 {
@@ -16,12 +17,14 @@ namespace MusicFestivalManagementSystem.Controllers
             _context = context;
         }
 
+        // Login GET action
         [HttpGet]
         public IActionResult Login()
         {
             return View();
         }
 
+        // Login POST action
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Login(LoginViewModel model)
@@ -31,24 +34,32 @@ namespace MusicFestivalManagementSystem.Controllers
                 return View(model);
             }
 
-            var user = _userService.Authenticate(model.Username, model.Password);
+            // Hash the entered password
+            var hashedPassword = HashPassword(model.Password);
+            var user = _userService.Authenticate(model.Username, hashedPassword);
+
             if (user == null)
             {
-                ModelState.AddModelError(string.Empty, "Invalid username or password");
+                // Log failed login attempts (optional)
+                ModelState.AddModelError(string.Empty, "Invalid username or password.");
                 return View(model);
             }
 
-            // Redirect to the home page or a dashboard after successful login
+            // Set session for authenticated user
+            HttpContext.Session.SetString("Username", user.Username);
+
+            // Redirect to home or dashboard after successful login
             return RedirectToAction("Index", "Home");
         }
 
-        // Add the registration feature
+        // Register GET action
         [HttpGet]
         public IActionResult Register()
         {
             return View();
         }
 
+        // Register POST action
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Register(RegisterViewModel model)
@@ -58,10 +69,10 @@ namespace MusicFestivalManagementSystem.Controllers
                 return View(model);
             }
 
-            // Check if the username or email already exists
+            // Check if username or email already exists
             if (_context.Users.Any(u => u.Username == model.Username || u.Email == model.Email))
             {
-                ModelState.AddModelError(string.Empty, "Username or Email is already taken");
+                ModelState.AddModelError(string.Empty, "Username or Email is already taken.");
                 return View(model);
             }
 
@@ -69,7 +80,7 @@ namespace MusicFestivalManagementSystem.Controllers
             var newUser = new User
             {
                 Username = model.Username,
-                Password = model.Password, // In a real-world app, make sure to hash the password
+                Password = HashPassword(model.Password), // Hash the password before saving
                 Email = model.Email
             };
 
@@ -79,6 +90,18 @@ namespace MusicFestivalManagementSystem.Controllers
 
             // Redirect to the login page after successful registration
             return RedirectToAction("Login");
+        }
+
+        // Helper method to hash passwords
+        private string HashPassword(string password)
+        {
+            // Use a library like BCrypt for real-world scenarios
+            using (var sha256 = SHA256.Create())
+            {
+                var bytes = Encoding.UTF8.GetBytes(password);
+                var hash = sha256.ComputeHash(bytes);
+                return Convert.ToBase64String(hash);
+            }
         }
     }
 }

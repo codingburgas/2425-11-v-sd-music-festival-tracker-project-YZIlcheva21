@@ -18,8 +18,23 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 // Register SignalR
 builder.Services.AddSignalR();
 
-// Enable sessions if needed for login management
-builder.Services.AddSession();
+// Enable sessions for login management
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30); // Session timeout (adjustable)
+    options.Cookie.HttpOnly = true; // Ensure cookie is accessible only by the server
+    options.Cookie.IsEssential = true; // Necessary for GDPR compliance
+});
+
+// Configure Cookie Policy (Optional: GDPR Compliance)
+builder.Services.Configure<CookiePolicyOptions>(options =>
+{
+    options.CheckConsentNeeded = context => true;
+    options.MinimumSameSitePolicy = Microsoft.AspNetCore.Http.SameSiteMode.Lax;
+});
+
+// Add HttpContextAccessor for accessing user identity in views
+builder.Services.AddHttpContextAccessor();
 
 var app = builder.Build();
 
@@ -37,17 +52,17 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.UseDefaultFiles();
-app.UseStaticFiles();
-
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+app.UseDefaultFiles();
+
+// Enable cookie policy
+app.UseCookiePolicy();
 
 app.UseRouting();
+app.UseAuthentication(); // Add this line if authentication is enabled
 app.UseAuthorization();
-
-// Enable sessions
-app.UseSession();
+app.UseSession(); // Enable session management
 
 // Map controllers and SignalR hub
 app.MapControllerRoute(
@@ -56,7 +71,7 @@ app.MapControllerRoute(
 
 app.MapHub<SignalRService>("/hub");
 
-// Add a default route for login
+// Add a default route for login (optional)
 app.MapGet("/", context =>
 {
     context.Response.Redirect("/Account/Login");
