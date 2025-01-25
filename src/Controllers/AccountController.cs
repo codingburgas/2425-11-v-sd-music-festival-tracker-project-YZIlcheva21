@@ -3,13 +3,15 @@ using MusicFestivalManagementSystem.Models;
 using MusicFestivalManagementSystem.Data;
 using System.Security.Cryptography;
 using System.Text;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication;
 
 namespace MusicFestivalManagementSystem.Controllers
 {
     public class AccountController : Controller
     {
-        private readonly IUserService _userService; // Dependency for user authentication
-        private readonly ApplicationDbContext _context; // For managing users in the database
+        private readonly IUserService _userService;
+        private readonly ApplicationDbContext _context;
 
         public AccountController(IUserService userService, ApplicationDbContext context)
         {
@@ -17,49 +19,59 @@ namespace MusicFestivalManagementSystem.Controllers
             _context = context;
         }
 
-        // Login GET action
         [HttpGet]
         public IActionResult Login()
         {
             return View();
         }
 
-        // Login POST action
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Login(LoginViewModel model)
+        public IActionResult Login(LoginViewModel model, bool rememberMe = false)
         {
             if (!ModelState.IsValid)
             {
                 return View(model);
             }
 
-            // Hash the entered password
             var hashedPassword = HashPassword(model.Password);
-            var user = _userService.Authenticate(model.Username, hashedPassword);
+            var user = _context.Users.FirstOrDefault(u => u.Username == model.Username && u.Password == hashedPassword);
 
             if (user == null)
             {
-                // Log failed login attempts (optional)
                 ModelState.AddModelError(string.Empty, "Invalid username or password.");
                 return View(model);
             }
 
-            // Set session for authenticated user
-            HttpContext.Session.SetString("Username", user.Username);
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Name, user.Username)
+            };
 
-            // Redirect to home or dashboard after successful login
+            var claimsIdentity = new ClaimsIdentity(claims, "Login");
+            var authProperties = new AuthenticationProperties
+            {
+                IsPersistent = rememberMe
+            };
+
+            HttpContext.SignInAsync(new ClaimsPrincipal(claimsIdentity), authProperties);
             return RedirectToAction("Index", "Home");
         }
 
-        // Register GET action
+        [HttpPost]
+        public IActionResult Logout()
+        {
+            HttpContext.SignOutAsync();
+            HttpContext.Session.Clear();
+            return RedirectToAction("Login");
+        }
+
         [HttpGet]
         public IActionResult Register()
         {
             return View();
         }
 
-        // Register POST action
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Register(RegisterViewModel model)
@@ -69,33 +81,27 @@ namespace MusicFestivalManagementSystem.Controllers
                 return View(model);
             }
 
-            // Check if username or email already exists
             if (_context.Users.Any(u => u.Username == model.Username || u.Email == model.Email))
             {
                 ModelState.AddModelError(string.Empty, "Username or Email is already taken.");
                 return View(model);
             }
 
-            // Create a new user object
             var newUser = new User
             {
                 Username = model.Username,
-                Password = HashPassword(model.Password), // Hash the password before saving
+                Password = HashPassword(model.Password),
                 Email = model.Email
             };
 
-            // Add and save the user in the database
             _context.Users.Add(newUser);
             _context.SaveChanges();
 
-            // Redirect to the login page after successful registration
             return RedirectToAction("Login");
         }
 
-        // Helper method to hash passwords
         private string HashPassword(string password)
         {
-            // Use a library like BCrypt for real-world scenarios
             using (var sha256 = SHA256.Create())
             {
                 var bytes = Encoding.UTF8.GetBytes(password);

@@ -1,12 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewData["Title"] - Music Festival Management System</title>
-</head>
-<body>
-    <h1>Welcome to the Music Festival Management System</h1>
-    <p>This is the default page.</p>
-</body>
-</html>
+@model IEnumerable<MusicFestivalManagementSystem.Models.Event>
+
+@{
+    ViewData["Title"] = "Events";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center">Events</h2>
+    <p>Welcome to the Events page!</p>
+
+    <ul class="list-group">
+        @if (Model != null && Model.Any())
+        {
+            foreach (var eventItem in Model)
+            {
+                <li class="list-group-item">
+                    <strong>@eventItem.Name</strong> - @eventItem.Date.ToShortDateString()
+                    <p>@eventItem.Description</p>
+                </li>
+            }
+        }
+        else
+        {
+            <li class="list-group-item">No events available.</li>
+        }
+    </ul>
+</div>
