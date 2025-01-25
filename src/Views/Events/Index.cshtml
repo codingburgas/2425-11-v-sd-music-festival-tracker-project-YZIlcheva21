@@ -4,24 +4,58 @@
     ViewData["Title"] = "Events";
 }
 
-<div class="container mt-4">
-    <h2 class="text-center">Events</h2>
-    <p>Welcome to the Events page!</p>
+<h2 class="text-center">Events</h2>
 
-    <ul class="list-group">
-        @if (Model != null && Model.Any())
-        {
-            foreach (var eventItem in Model)
-            {
-                <li class="list-group-item">
-                    <strong>@eventItem.Name</strong> - @eventItem.Date.ToShortDateString()
-                    <p>@eventItem.Description</p>
-                </li>
-            }
-        }
-        else
-        {
-            <li class="list-group-item">No events available.</li>
-        }
-    </ul>
+<!-- Search Form -->
+<form asp-action="Index" method="get" class="mb-4">
+    <div class="input-group mb-3">
+        <input type="text" name="searchQuery" class="form-control" placeholder="Search events..." value="@ViewBag.SearchQuery" />
+        <button class="btn btn-primary" type="submit">Search</button>
+    </div>
+
+    <!-- Filters -->
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <select name="category" class="form-select" onchange="this.form.submit()">
+                <option value="">All Categories</option>
+                <option value="Music" @(ViewBag.Category == "Music" ? "selected" : "")>Music</option>
+                <option value="Theater" @(ViewBag.Category == "Theater" ? "selected" : "")>Theater</option>
+                <option value="Comedy" @(ViewBag.Category == "Comedy" ? "selected" : "")>Comedy</option>
+            </select>
+        </div>
+    </div>
+</form>
+
+<!-- Sorting Links -->
+<div class="mb-4">
+    <a asp-action="Index" asp-route-sortOrder="name_desc">Sort by Name (Descending)</a> |
+    <a asp-action="Index" asp-route-sortOrder="date_asc">Sort by Date (Ascending)</a> |
+    <a asp-action="Index" asp-route-sortOrder="date_desc">Sort by Date (Descending)</a>
 </div>
+
+<!-- Events List -->
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Date</th>
+            <th>Category</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var eventItem in Model)
+        {
+            <tr>
+                <td>@eventItem.Name</td>
+                <td>@eventItem.Date.ToShortDateString()</td>
+                <td>@eventItem.Category</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@eventItem.Id" class="btn btn-info btn-sm">Details</a>
+                    <a asp-action="Edit" asp-route-id="@eventItem.Id" class="btn btn-warning btn-sm">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@eventItem.Id" class="btn btn-danger btn-sm">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

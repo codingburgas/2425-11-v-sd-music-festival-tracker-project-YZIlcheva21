@@ -3,8 +3,6 @@ using MusicFestivalManagementSystem.Models;
 using System.Linq;
 using MusicFestivalManagementSystem.Data;
 
-
-
 namespace MusicFestivalManagementSystem.Controllers
 {
     public class EventsController : Controller
@@ -16,11 +14,37 @@ namespace MusicFestivalManagementSystem.Controllers
             _context = context;
         }
 
-        // List all events
-        public IActionResult Index()
+        // List all events with search, sorting, and filtering
+        public IActionResult Index(string searchQuery, string sortOrder, string category)
         {
-            var events = _context.Events.ToList();
-            return View(events);
+            var events = _context.Events.AsQueryable();
+
+            // Search
+            if (!string.IsNullOrEmpty(searchQuery))
+            {
+                events = events.Where(e => e.Name.Contains(searchQuery) || e.Description.Contains(searchQuery));
+            }
+
+            // Filtering by category (if the Event model has a Category property)
+            if (!string.IsNullOrEmpty(category))
+            {
+                events = events.Where(e => e.Category == category);
+            }
+
+            // Sorting
+            events = sortOrder switch
+            {
+                "name_desc" => events.OrderByDescending(e => e.Name),
+                "date_asc" => events.OrderBy(e => e.Date),
+                "date_desc" => events.OrderByDescending(e => e.Date),
+                _ => events.OrderBy(e => e.Name), // Default sorting by name ascending
+            };
+
+            ViewBag.SearchQuery = searchQuery;
+            ViewBag.SortOrder = sortOrder;
+            ViewBag.Category = category;
+
+            return View(events.ToList());
         }
 
         // View details of a specific event
