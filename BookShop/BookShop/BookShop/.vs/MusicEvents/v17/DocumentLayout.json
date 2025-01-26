@@ -1,0 +1,756 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\views\\event\\myevents.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\views\\event\\myevents.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\models\\myeventviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\models\\myeventviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\data\\entitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\data\\entitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\AppData\\Local\\Temp\\.vsdbgsrc\\fc50d1e9efbfb174be88b08d6d9059b7b98de812\\Views_Music_UpdateEvent_cshtml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\AppData\\Local\\Temp\\.vsdbgsrc\\58d57de6d886d272ced295d3a80e5fd8a0e1136a\\Views_Home_Index_cshtml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Downloads\\BookShop\\BookShop\\BookShop\\BookShop\\Migrations\\20250126182407_b.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\views\\event\\createevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\views\\event\\createevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\views\\event\\publicevents.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\views\\event\\publicevents.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\views\\event\\updateevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\views\\event\\updateevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\models\\eventviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\models\\eventviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\migrations\\20240515214421_makeimagenullable.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\migrations\\20240515214421_makeimagenullable.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\migrations\\20250126183438_music.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\migrations\\20250126183438_music.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\migrations\\20240515203253_add imagebase64 to event.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\migrations\\20240515203253_add imagebase64 to event.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\migrations\\20240429215153_addmusicevent.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\migrations\\20240429215153_addmusicevent.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\services\\hasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\services\\hasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\models\\updateeventviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\models\\updateeventviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\models\\publiceventviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\models\\publiceventviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\migrations\\entitycontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\migrations\\entitycontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\migrations\\20240515214421_makeimagenullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\migrations\\20240515214421_makeimagenullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\migrations\\20240515203253_add imagebase64 to event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\migrations\\20240515203253_add imagebase64 to event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\common\\currentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\common\\currentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\models\\createeventviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\models\\createeventviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\wwwroot\\lib\\bootstrap\\license||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\wwwroot\\lib\\bootstrap\\license||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\data\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\data\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\migrations\\20250126183438_music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\migrations\\20250126183438_music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\data\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\data\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\migrations\\20240429215153_addmusicevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\migrations\\20240429215153_addmusicevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|c:\\users\\pc\\downloads\\2425-11-v-sd-music-festival-tracker-project-yzilcheva21\\bookshop\\bookshop\\bookshop\\bookshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ED1E83CA-43A1-4471-9420-BD6BDEF0B62D}|BookShop\\MusicEvents.csproj|solutionrelative:bookshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "BookShop\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "BookShop\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T20:26:55.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UpdateEvent.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Views\\Event\\UpdateEvent.cshtml",
+              "RelativeDocumentMoniker": "BookShop\\Views\\Event\\UpdateEvent.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Views\\Event\\UpdateEvent.cshtml",
+              "RelativeToolTip": "BookShop\\Views\\Event\\UpdateEvent.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T18:51:45.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EventViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Models\\EventViewModel.cs",
+              "RelativeDocumentMoniker": "BookShop\\Models\\EventViewModel.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Models\\EventViewModel.cs",
+              "RelativeToolTip": "BookShop\\Models\\EventViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:02:02.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Program.cs",
+              "RelativeDocumentMoniker": "BookShop\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Program.cs",
+              "RelativeToolTip": "BookShop\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T17:24:07.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EventRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Repositories\\EventRepository.cs",
+              "RelativeDocumentMoniker": "BookShop\\Repositories\\EventRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Repositories\\EventRepository.cs",
+              "RelativeToolTip": "BookShop\\Repositories\\EventRepository.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T18:31:03.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EntityContext.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Data\\EntityContext.cs",
+              "RelativeDocumentMoniker": "BookShop\\Data\\EntityContext.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Data\\EntityContext.cs",
+              "RelativeToolTip": "BookShop\\Data\\EntityContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T18:40:56.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "BookShop\\Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Controllers\\EventController.cs",
+              "RelativeToolTip": "BookShop\\Controllers\\EventController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T18:28:34.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyEventViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Models\\MyEventViewModel.cs",
+              "RelativeDocumentMoniker": "BookShop\\Models\\MyEventViewModel.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Models\\MyEventViewModel.cs",
+              "RelativeToolTip": "BookShop\\Models\\MyEventViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:39:56.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyEvents.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Views\\Event\\MyEvents.cshtml",
+              "RelativeDocumentMoniker": "BookShop\\Views\\Event\\MyEvents.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Views\\Event\\MyEvents.cshtml",
+              "RelativeToolTip": "BookShop\\Views\\Event\\MyEvents.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T18:49:17.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PublicEvents.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Views\\Event\\PublicEvents.cshtml",
+              "RelativeDocumentMoniker": "BookShop\\Views\\Event\\PublicEvents.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Views\\Event\\PublicEvents.cshtml",
+              "RelativeToolTip": "BookShop\\Views\\Event\\PublicEvents.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T18:51:04.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateEvent.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Views\\Event\\CreateEvent.cshtml",
+              "RelativeDocumentMoniker": "BookShop\\Views\\Event\\CreateEvent.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Views\\Event\\CreateEvent.cshtml",
+              "RelativeToolTip": "BookShop\\Views\\Event\\CreateEvent.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T18:48:44.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20240515214421_MakeImageNullable.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Migrations\\20240515214421_MakeImageNullable.Designer.cs",
+              "RelativeDocumentMoniker": "BookShop\\Migrations\\20240515214421_MakeImageNullable.Designer.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Migrations\\20240515214421_MakeImageNullable.Designer.cs",
+              "RelativeToolTip": "BookShop\\Migrations\\20240515214421_MakeImageNullable.Designer.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAswGEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:34:43.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250126183438_Music.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Migrations\\20250126183438_Music.Designer.cs",
+              "RelativeDocumentMoniker": "BookShop\\Migrations\\20250126183438_Music.Designer.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Migrations\\20250126183438_Music.Designer.cs",
+              "RelativeToolTip": "BookShop\\Migrations\\20250126183438_Music.Designer.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAswDYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:34:59.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BookShop\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BookShop\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAqwC8AAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T19:35:09.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "bootstrap.bundle.js",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "RelativeDocumentMoniker": "BookShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "RelativeToolTip": "BookShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "ViewState": "AgIAAKAKAAAAAAAAAAAqwK0KAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-26T19:35:22.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "bootstrap.bundle.js.map",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+              "RelativeDocumentMoniker": "BookShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+              "RelativeToolTip": "BookShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABZdQEAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-26T19:35:28.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "bootstrap.bundle.min.js.map",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+              "RelativeDocumentMoniker": "BookShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+              "RelativeToolTip": "BookShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAD07gIAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-26T19:35:32.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20240515203253_Add ImageBase64 to Event.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Migrations\\20240515203253_Add ImageBase64 to Event.Designer.cs",
+              "RelativeDocumentMoniker": "BookShop\\Migrations\\20240515203253_Add ImageBase64 to Event.Designer.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Migrations\\20240515203253_Add ImageBase64 to Event.Designer.cs",
+              "RelativeToolTip": "BookShop\\Migrations\\20240515203253_Add ImageBase64 to Event.Designer.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAswGIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:32:19.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Views_Music_UpdateEvent_cshtml.g.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\AppData\\Local\\Temp\\.vsdbgsrc\\fc50d1e9efbfb174be88b08d6d9059b7b98de812\\Views_Music_UpdateEvent_cshtml.g.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\fc50d1e9efbfb174be88b08d6d9059b7b98de812\\Views_Music_UpdateEvent_cshtml.g.cs",
+              "ToolTip": "C:\\Users\\PC\\AppData\\Local\\Temp\\.vsdbgsrc\\fc50d1e9efbfb174be88b08d6d9059b7b98de812\\Views_Music_UpdateEvent_cshtml.g.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\fc50d1e9efbfb174be88b08d6d9059b7b98de812\\Views_Music_UpdateEvent_cshtml.g.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:30:40.923Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Views_Home_Index_cshtml.g.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\AppData\\Local\\Temp\\.vsdbgsrc\\58d57de6d886d272ced295d3a80e5fd8a0e1136a\\Views_Home_Index_cshtml.g.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\58d57de6d886d272ced295d3a80e5fd8a0e1136a\\Views_Home_Index_cshtml.g.cs",
+              "ToolTip": "C:\\Users\\PC\\AppData\\Local\\Temp\\.vsdbgsrc\\58d57de6d886d272ced295d3a80e5fd8a0e1136a\\Views_Home_Index_cshtml.g.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\58d57de6d886d272ced295d3a80e5fd8a0e1136a\\Views_Home_Index_cshtml.g.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:29:36.323Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BookShop\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BookShop\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T19:29:28.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "bootstrap-reboot.css",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+              "RelativeDocumentMoniker": "BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+              "RelativeToolTip": "BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-26T19:27:32.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Data\\User.cs",
+              "RelativeDocumentMoniker": "BookShop\\Data\\User.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Data\\User.cs",
+              "RelativeToolTip": "BookShop\\Data\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T18:37:59.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20240429215153_AddMusicEvent.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Migrations\\20240429215153_AddMusicEvent.Designer.cs",
+              "RelativeDocumentMoniker": "BookShop\\Migrations\\20240429215153_AddMusicEvent.Designer.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Migrations\\20240429215153_AddMusicEvent.Designer.cs",
+              "RelativeToolTip": "BookShop\\Migrations\\20240429215153_AddMusicEvent.Designer.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAswA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:12:59.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "favicon.ico - Icon [32x32, 32 bit, BMP]",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\wwwroot\\favicon.ico",
+              "RelativeDocumentMoniker": "BookShop\\wwwroot\\favicon.ico",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\wwwroot\\favicon.ico - Icon [32x32, 32 bit, BMP]",
+              "RelativeToolTip": "BookShop\\wwwroot\\favicon.ico - Icon [32x32, 32 bit, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2025-01-26T19:30:28.701Z",
+              "EditorCaption": " - Icon [32x32, 32 bit, BMP]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "bootstrap.css",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeDocumentMoniker": "BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeToolTip": "BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-26T19:18:54.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LogIn.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Views\\Auth\\LogIn.cshtml",
+              "RelativeDocumentMoniker": "BookShop\\Views\\Auth\\LogIn.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Views\\Auth\\LogIn.cshtml",
+              "RelativeToolTip": "BookShop\\Views\\Auth\\LogIn.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T18:48:23.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "BookShop\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Properties\\launchSettings.json",
+              "RelativeToolTip": "BookShop\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-26T19:18:36.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Hasher.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Services\\Hasher.cs",
+              "RelativeDocumentMoniker": "BookShop\\Services\\Hasher.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Services\\Hasher.cs",
+              "RelativeToolTip": "BookShop\\Services\\Hasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T18:01:12.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UpdateEventViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Models\\UpdateEventViewModel.cs",
+              "RelativeDocumentMoniker": "BookShop\\Models\\UpdateEventViewModel.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Models\\UpdateEventViewModel.cs",
+              "RelativeToolTip": "BookShop\\Models\\UpdateEventViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T18:30:51.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PublicEventViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Models\\PublicEventViewModel.cs",
+              "RelativeDocumentMoniker": "BookShop\\Models\\PublicEventViewModel.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Models\\PublicEventViewModel.cs",
+              "RelativeToolTip": "BookShop\\Models\\PublicEventViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T18:30:36.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LogInViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Models\\LogInViewModel.cs",
+              "RelativeDocumentMoniker": "BookShop\\Models\\LogInViewModel.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Models\\LogInViewModel.cs",
+              "RelativeToolTip": "BookShop\\Models\\LogInViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:21:41.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EntityContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Migrations\\EntityContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "BookShop\\Migrations\\EntityContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Migrations\\EntityContextModelSnapshot.cs",
+              "RelativeToolTip": "BookShop\\Migrations\\EntityContextModelSnapshot.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAABgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:20:28.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20240515214421_MakeImageNullable.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Migrations\\20240515214421_MakeImageNullable.cs",
+              "RelativeDocumentMoniker": "BookShop\\Migrations\\20240515214421_MakeImageNullable.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Migrations\\20240515214421_MakeImageNullable.cs",
+              "RelativeToolTip": "BookShop\\Migrations\\20240515214421_MakeImageNullable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:20:12.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20240515203253_Add ImageBase64 to Event.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Migrations\\20240515203253_Add ImageBase64 to Event.cs",
+              "RelativeDocumentMoniker": "BookShop\\Migrations\\20240515203253_Add ImageBase64 to Event.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Migrations\\20240515203253_Add ImageBase64 to Event.cs",
+              "RelativeToolTip": "BookShop\\Migrations\\20240515203253_Add ImageBase64 to Event.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:19:55.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CurrentUser.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Common\\CurrentUser.cs",
+              "RelativeDocumentMoniker": "BookShop\\Common\\CurrentUser.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Common\\CurrentUser.cs",
+              "RelativeToolTip": "BookShop\\Common\\CurrentUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T18:36:12.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CreateEventViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Models\\CreateEventViewModel.cs",
+              "RelativeDocumentMoniker": "BookShop\\Models\\CreateEventViewModel.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Models\\CreateEventViewModel.cs",
+              "RelativeToolTip": "BookShop\\Models\\CreateEventViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T18:29:57.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "LICENSE",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\LICENSE",
+              "RelativeDocumentMoniker": "BookShop\\wwwroot\\lib\\bootstrap\\LICENSE",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\LICENSE",
+              "RelativeToolTip": "BookShop\\wwwroot\\lib\\bootstrap\\LICENSE",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-26T19:18:48.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Data\\Entity.cs",
+              "RelativeDocumentMoniker": "BookShop\\Data\\Entity.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Data\\Entity.cs",
+              "RelativeToolTip": "BookShop\\Data\\Entity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T18:43:34.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "20250126183438_Music.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Migrations\\20250126183438_Music.cs",
+              "RelativeDocumentMoniker": "BookShop\\Migrations\\20250126183438_Music.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Migrations\\20250126183438_Music.cs",
+              "RelativeToolTip": "BookShop\\Migrations\\20250126183438_Music.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T18:34:38.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "BookShop\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "BookShop\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-26T19:18:43.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Music.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Data\\Music.cs",
+              "RelativeDocumentMoniker": "BookShop\\Data\\Music.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Data\\Music.cs",
+              "RelativeToolTip": "BookShop\\Data\\Music.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T18:29:00.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20240429215153_AddMusicEvent.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Migrations\\20240429215153_AddMusicEvent.cs",
+              "RelativeDocumentMoniker": "BookShop\\Migrations\\20240429215153_AddMusicEvent.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\Migrations\\20240429215153_AddMusicEvent.cs",
+              "RelativeToolTip": "BookShop\\Migrations\\20240429215153_AddMusicEvent.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:10:53.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "BookShop\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "BookShop\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-26T18:35:57.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250126182407_b.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\BookShop\\BookShop\\BookShop\\BookShop\\Migrations\\20250126182407_b.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\BookShop\\BookShop\\BookShop\\BookShop\\Migrations\\20250126182407_b.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\BookShop\\BookShop\\BookShop\\BookShop\\Migrations\\20250126182407_b.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\BookShop\\BookShop\\BookShop\\BookShop\\Migrations\\20250126182407_b.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T18:24:07.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\appsettings.json",
+              "RelativeDocumentMoniker": "BookShop\\appsettings.json",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\2425-11-v-sd-music-festival-tracker-project-YZIlcheva21\\BookShop\\BookShop\\BookShop\\BookShop\\appsettings.json",
+              "RelativeToolTip": "BookShop\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-26T18:03:13.474Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

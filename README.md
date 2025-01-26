@@ -1,37 +1,30 @@
-# Example Code for Database Connectivity and Three-Layer Model Structure
+# MusicEvents Project
 
-Welcome! This repository contains **example code** to help you understand **database connectivity** and the **three-layer model structure** in software development.
+Welcome to the **MusicEvents** project! This web application allows users to create, manage, and explore events. It provides an intuitive interface for organizing events and showcasing public events to others.
 
-### What is this repository for?
-This code is designed to **demonstrate** key concepts related to:
-- **Database Connectivity**: How to connect your application to a database (Microsoft SQL Server).
-- **Three-Layer Architecture**: The separation of your application into three layers:
-  1. **Data Access Layer (DAL)**: Handles interactions with the database.
-  2. **Business Logic Layer (BLL)**: Contains the core logic of the application.
-  3. **Presentation Layer (PL)**: Manages user interfaces and interaction.
+---
 
-### Important Notes:
-- The code in this repository is **for learning purposes only** and is not intended for real-world use.
-- It may be **deleted or changed at any time** without prior notice, so be sure to use it while it's here!
-- This is just a simple example to help you understand how these concepts fit together in an application structure.
+## Features
 
-### Why should I use this?
-- If you're learning about software architecture, this repository can give you a **practical example** of how to structure an application.
-- It also provides a basic understanding of how different layers in an application work together, especially when connecting to a database.
+- **User Authentication**: Users can register, log in, and manage their accounts securely.
+- **Event Management**: Create, update, delete, and view personal events.
+- **Public Events**: Browse events made public by other users.
+- **File Uploads**: Upload images for events with validation.
+- **Responsive Design**: Optimized for desktop and mobile devices.
+- **Sorting and Filtering**: Filter and sort events by various criteria.
+- **Data Visualization**: Analyze event data using visualizations (if applicable).
 
-### How to Use This Code:
-1. **Clone or Download**: You can clone or download the repository to explore the code.
-2. (Optional) Install Microsoft.SqlClient package from Nuget Package manager
-2. **Study the Code**: Look at how the database is connected and how the three-layer model is set up.
-3. **Modify and Experiment**: Feel free to modify the code for practice, but remember that this code is not for production use.
+---
 
-### How to Use TODO-To-Issue tracker:
-1. In the repo where you want the action to run, go to Settings -> Actions (General) -> Workflow permissions and enable "Read and write permissions".
-2. Simply add a line or block comment starting with TODO (or any other comment identifiers configured), followed by a colon and/or space.
-3. For more info follow https://github.com/marketplace/actions/todo-to-issue
+## Technology Stack
 
-### After Reading This:
-- **Please edit this README** to add your own notes, thoughts, or questions as you go through the code.
+- **Frontend**: Razor Pages (CSHTML) with Bootstrap for responsive design.
+- **Backend**: ASP.NET Core MVC framework.
+- **Database**: Microsoft SQL Server with Entity Framework Core.
+- **Hosting**: Azure App Services (optional for deployment).
+- **Tools**: Visual Studio, GitHub for version control.
 
-### Contact:
-If you have any questions or need clarification, feel free to reach out to @dyanakiev.
+---
+
+## Project Structure
+
