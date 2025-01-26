@@ -24,7 +24,5 @@ Welcome to the **MusicEvents** project! This web application allows users to cre
 - **Hosting**: Azure App Services (optional for deployment).
 - **Tools**: Visual Studio, GitHub for version control.
 
----
 
-## Project Structure
 
